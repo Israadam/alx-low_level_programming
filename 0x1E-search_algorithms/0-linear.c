@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * linear_searcher - searches for a value in an array of
+ * linear_search - searches for a value in an array of
  * integers using the Linear search algorithm
  *
  * @array: input array
@@ -9,7 +9,7 @@
  * @value: value to search in
  * Return: Always EXIT_SUCCESS
  */
-int linear_searcher(int *array, size_t size, int value)
+int linear_search(int *array, size_t size, int value)
 {
 	int i;
 
